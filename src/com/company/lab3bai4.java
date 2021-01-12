@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Scanner;
 
-public class lab2bai4 {
+public class lab3bai4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("nhap a: ");

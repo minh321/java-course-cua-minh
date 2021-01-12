@@ -20,7 +20,7 @@ public class lab3bai5 {
             money = (long) (STARTING_FEE + 13500 * (5-1) + 11000 * (km - 5 - 1));
         }else {
             if (km > 120){
-                money = (long) (STARTING_FEE + 13500 * (5-1) + 11000 * (km - 5 - 1)*90/100);
+                money = (long) (STARTING_FEE + 13500 * (5-1) + FROM_5KM_ONWARDS * (km - 5 - 1)*90/100);
             }
         }
         System.out.println("so tien di " + km + "km = " + money + " dong");
